@@ -1,0 +1,16 @@
+p{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #666666;
+}
+
+h3{
+    color: #333333;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.section-title{
+    width: 50%;
+}

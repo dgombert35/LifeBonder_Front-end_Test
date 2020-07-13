@@ -1,0 +1,26 @@
+.menuChoice{
+    display: flex;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menuName{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 14px;
+    color: #5bb1d3;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(255,255,255,.75)
+}

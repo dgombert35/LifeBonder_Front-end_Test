@@ -1,0 +1,13 @@
+
+<div class="purple">
+    <div class="profile">
+        <h4>{{memberDetail.localisation}}</h4>
+        <img [src]="memberDetail.img" class="thumbail">
+    
+        <h3 class="name">{{memberDetail.name}}</h3>
+        <p class="title">{{memberDetail.title}}</p>
+        <p class="subtitle">{{memberDetail.subtitle}}</p>
+        <p class="description">{{memberDetail.description}}</p>
+    </div>
+    <app-social-networks [socialNetworkDetail]="socialNetWorkDetail"></app-social-networks>
+</div>
