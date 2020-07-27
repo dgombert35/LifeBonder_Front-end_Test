@@ -20,11 +20,11 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.css", "src/app/app.component.ts"
+              "src/styles.css",
+              "src/app/app.component.ts"
             ],
             "scripts": []
           },
@@ -84,7 +84,6 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
-              "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
@@ -117,8 +116,13 @@
               "devServerTarget": "lifeBonder-FrontEnd-Test:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "lifeBonder-FrontEnd-Test"
 }
