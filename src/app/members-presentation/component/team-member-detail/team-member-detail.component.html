@@ -1,13 +1,13 @@
 
 <div class="purple">
     <div class="profile">
-        <h4>{{memberDetail.localisation}}</h4>
-        <img [src]="memberDetail.img" class="thumbail">
-    
-        <h3 class="name">{{memberDetail.name}}</h3>
-        <p class="title">{{memberDetail.title}}</p>
-        <p class="subtitle">{{memberDetail.subtitle}}</p>
-        <p class="description">{{memberDetail.description}}</p>
+        <h4>{{memberDetail.localisation | libelle}}</h4>
+        <img [src]="memberDetail.img | libelle" class="thumbail">
+
+        <h3 class="name">{{memberDetail.name | libelle}}</h3>
+        <p class="title">{{memberDetail.title | libelle}}</p>
+        <p class="subtitle">{{memberDetail.subtitle | libelle}}</p>
+        <p class="description">{{memberDetail.description | libelle}}</p>
     </div>
     <app-social-networks [socialNetworkDetail]="socialNetWorkDetail"></app-social-networks>
 </div>

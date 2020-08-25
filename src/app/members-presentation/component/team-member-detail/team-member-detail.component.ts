@@ -1,6 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { member } from '../../../objects/member';
-import { socialNetworkForMember, socialNetwork } from '../../../objects/socialNetworksIcon';
+
+import { Member } from 'src/app/models/member.model';
+import { SocialNetwork } from 'src/app/models/socialNetworksIcon.model';
+import { LibellePipe } from '../../../Pipes/libelle.pipe';
 
 
 @Component({
@@ -11,19 +13,24 @@ import { socialNetworkForMember, socialNetwork } from '../../../objects/socialNe
 export class TeamMemberDetailComponent implements OnInit {
 
   @Input()
-  memberDetail: member;
+  memberDetail: Member;
 
-  socialNetworkList = socialNetworkForMember;
-  socialNetWorkDetail: socialNetwork;
+  @Input()
+  socialNetworkList: SocialNetwork[];
+
+  socialNetWorkDetail: SocialNetwork;
 
 
-  constructor() { }
+  constructor(private readonly libellePipe: LibellePipe) { }
 
   ngOnInit(): void {
 
 
+
     this.socialNetworkList.forEach(el => {
-      if(this.memberDetail.name.match(el.name)){
+      let elName = this.libellePipe.transform(el.name);
+      let memberName = this.libellePipe.transform(this.memberDetail.name);
+      if(memberName.match(elName)){
         this.socialNetWorkDetail = el;
       }
     });

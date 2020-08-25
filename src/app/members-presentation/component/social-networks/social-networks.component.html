@@ -1,20 +1,20 @@
 
 <div class="socials-icons">
     <div class="icon facebook" *ngIf="socialNetworkDetail.facebook">
-        <a [href]="socialNetworkDetail.facebooklink" target="_blank"></a>
-        <p>Facebook</p>
+        <a [href]="socialNetworkDetail.facebooklink | libelle" target="_blank"></a>
+        <p>{{ 'socialNetworks.facebook' | libelle}}</p>
     </div>
     <div class="icon linkedin" *ngIf="socialNetworkDetail.linkedin">
-        <a [href]="socialNetworkDetail.linkedinLInk" target="_blank">
+        <a [href]="socialNetworkDetail.linkedinLInk | libelle" target="_blank">
         </a>
-        <p>Linkedin</p>
+        <p>{{ 'socialNetworks.linkedIn' | libelle}}</p>
     </div>
     <div class="icon instagram" *ngIf="socialNetworkDetail.instagram">
-        <a [href]="socialNetworkDetail.instagramLink" target="_blank"></a>
-        <p>Instagram</p>
+        <a [href]="socialNetworkDetail.instagramLink | libelle" target="_blank"></a>
+        <p>{{ 'socialNetworks.instagram' | libelle}}</p>
     </div>
     <div class="icon github" *ngIf="socialNetworkDetail.github">
-        <a [href]="socialNetworkDetail.githubLink" target="_blank"></a>
-        <p>Github</p>
+        <a [href]="socialNetworkDetail.githubLink | libelle" target="_blank"></a>
+        <p>{{ 'socialNetworks.github' | libelle}}</p>
     </div>
 </div>

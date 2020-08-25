@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LibelleService } from './services/libelle.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lifeBonder-FrontEnd-Test';
+
+  constructor(private readonly libelleService: LibelleService){}
+
+  ngOnInit(){
+    this.libelleService.getLibelleList('textIntroduction');
+  }
 }

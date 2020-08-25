@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { choiceMenu } from '../../../objects/choiceMenu';
+import { ChoiceMenu } from '../../../models/choiceMenu.model';
 
 @Component({
   selector: 'app-menu-choice',
@@ -9,13 +9,13 @@ import { choiceMenu } from '../../../objects/choiceMenu';
 export class MenuChoiceComponent implements OnInit {
 
   @Input()
-  choiceMenu: choiceMenu;
+  choiceMenu: ChoiceMenu;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
- 
+
 
 }

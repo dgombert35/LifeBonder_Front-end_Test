@@ -1,4 +1,3 @@
 <div class="menuChoice">
-    <a class="menuName" [href]="choiceMenu.link">{{choiceMenu.name}}</a>
+    <a class="menuName" [href]="choiceMenu.link | libelle">{{choiceMenu.name | libelle | uppercase}}</a>
 </div>
-

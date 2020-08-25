@@ -16,6 +16,13 @@ import { TeamMemberDetailComponent } from './members-presentation/component//tea
 import { TeamMemberPresentationComponent } from './members-presentation/container/team-member-presentation/team-member-presentation.component';
 import { SocialNetworksComponent } from './members-presentation/component/social-networks/social-networks.component';
 
+// import services
+import { LibelleService } from './services/libelle.service';
+import { ObjectsService } from './services/objects.service';
+
+//imoprt pipes
+import { LibellePipe } from './Pipes/libelle.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,12 +34,13 @@ import { SocialNetworksComponent } from './members-presentation/component/social
     TeamMembersListComponent,
     TeamMemberDetailComponent,
     TeamMemberPresentationComponent,
-    SocialNetworksComponent
+    SocialNetworksComponent,
+    LibellePipe,
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ObjectsService, LibelleService, LibellePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

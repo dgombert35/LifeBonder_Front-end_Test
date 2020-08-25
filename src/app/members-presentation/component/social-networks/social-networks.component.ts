@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { socialNetwork } from '../../../objects/socialNetworksIcon';
-
+import { SocialNetwork } from '../../../models/socialNetworksIcon.model';
 @Component({
   selector: 'app-social-networks',
   templateUrl: './social-networks.component.html',
@@ -9,7 +8,7 @@ import { socialNetwork } from '../../../objects/socialNetworksIcon';
 export class SocialNetworksComponent implements OnInit {
 
   @Input()
-  socialNetworkDetail: socialNetwork;
+  socialNetworkDetail: SocialNetwork;
 
 
   constructor() { }
