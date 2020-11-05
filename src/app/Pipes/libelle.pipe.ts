@@ -13,7 +13,7 @@ export class LibellePipe implements PipeTransform {
     }
 
     transform(key: string): string {
-        return this.libelleService.getLibelleValue(key);
+        return this.libelleService.getLibelleValueFromWithId(key);
     }
 
 }

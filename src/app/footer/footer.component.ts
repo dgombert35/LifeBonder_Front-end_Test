@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { LibelleService } from '../services/libelle.service';
 
 @Component({
   selector: 'app-footer',
@@ -8,10 +7,10 @@ import { LibelleService } from '../services/libelle.service';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(private readonly libelleService: LibelleService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.libelleService.getLibelleList('footer');
+
   }
 
 }

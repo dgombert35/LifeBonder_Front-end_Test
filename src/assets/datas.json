@@ -1,0 +1,218 @@
+[
+    {
+    "key": "choiceMenu.home",
+    "value": "Home"
+    },
+    {
+    "key": "choiceMenu.idea",
+    "value": "Idea"
+    },
+    {
+        "key": "choiceMenu.features",
+        "value": "Features"
+    },
+    {
+        "key": "choiceMenu.mission",
+        "value": "mission"
+    },
+    {
+        "key": "choiceMenu.careers",
+        "value": "careers"
+    },
+    {
+        "key": "choiceMenu.blog",
+        "value": "blog"
+    },
+    {
+        "key": "choiceMenu.press",
+        "value": "press"
+    },
+    {
+        "key": "choiceMenu.team",
+        "value": "team"
+    },
+    {
+        "key": "choiceMenu.joinUs",
+        "value": "join us"
+    },
+    {
+        "key": "choiceMenu.toHome",
+        "value": "link to HOME"
+    },
+    {
+        "key": "choiceMenu.toIdea",
+        "value": "link to IDEA"
+    },
+    {
+        "key": "choiceMenu.toFeatures",
+        "value": "link to FEATURES"
+    },
+    {
+        "key": "choiceMenu.toMission",
+        "value": "'link to MISSION"
+    },
+    {
+        "key": "choiceMenu.toCareers",
+        "value": "link to CAREERS"
+    },
+    {
+        "key": "choiceMenu.toBlog",
+        "value": "link to BLOG"
+    },
+    {
+        "key": "choiceMenu.toPress",
+        "value": "link to PRESS"
+    },
+    {
+        "key": "choiceMenu.toTeam",
+        "value": "link to TEAM"
+    },
+    {
+        "key": "choiceMenu.toJoinUs",
+        "value": "link to JOIN US"
+    },
+    {
+        "key": "socialNetworks.githubLinkMemberTwo",
+        "value": "https://github.com/pori468"
+    },
+    {
+        "key": "socialNetworks.linkedInLinkMemberTwo",
+        "value": "https://www.linkedin.com/in/mohammad-hasan-22452633"
+    },
+    {
+        "key": "socialNetworks.nameMemberTwo",
+        "value": "Hasan"
+    },
+    {
+        "key": "socialNetworks.instagramLinkMemberOne",
+        "value": "https://www.instagram.com/lifebonder_"
+    },
+    {
+        "key": "socialNetworks.facebookLinkMemberOne",
+        "value": "https://www.facebook.com/LifeBonder/"
+    },
+    {
+        "key": "socialNetworks.linkeInLinkMemberOne",
+        "value": "https://www.linkedin.com/in/jesper-simonsen-4092915/"
+    },
+    {
+        "key": "socialNetworks.nameMemberOne",
+        "value": "Jesper"
+    },
+    {
+        "key": "socialNetworks.facebook",
+        "value": "Facebook"
+    },
+    {
+        "key": "socialNetworks.linkedIn",
+        "value": "Linkedin"
+    },
+    {
+        "key": "socialNetworks.instagram",
+        "value": "Instagram"
+    },
+    {
+        "key": "socialNetworks.github",
+        "value": "Github"
+    },
+    {
+        "key": "socialNetworks.github",
+        "value": ""
+    },
+    {
+        "key": "socialNetworks.github",
+        "value": "Github"
+    },
+    {
+        "key": "socialNetworks.github",
+        "value": "Github"
+    },
+    {
+        "key": "socialNetworks.github",
+        "value": "Github"
+    },
+    {
+        "key": "socialNetworks.github",
+        "value": "Github"
+    },
+    {
+        "key": "socialNetworks.github",
+        "value": "Github"
+    },
+    {
+        "key": "member.localisationMemberOne",
+        "value": "Denmark"
+    },
+    {
+        "key": "member.imgMemberOne",
+        "value": "/assets/jesper_Simonsen.jpg"
+    },
+    {
+        "key": "member.nameMemberOne",
+        "value": "Jesper Simonsen"
+    },
+    {
+        "key": "member.titleMemberOne",
+        "value": "FULL STACK PHILOSOPHER"
+    },
+    {
+        "key": "member.subtitleMemberOne",
+        "value": "Founder & CTO"
+    },
+    {
+        "key": "member.descriptionMemberOne",
+        "value": "It’s time for a change. I want to create a social media platform that lives up to the promise of what social media can be: a tool to facilitate human connections rather than replacing them. I want to connect people in friendships that are human, profound and meaningful."
+    },
+    {
+        "key": "member.localisationMemberTwo",
+        "value": "Bangladesh"
+    },
+    {
+        "key": "member.imgMemberTwo",
+        "value": "./assets/hasan.jpg"
+    },
+    {
+        "key": "member.nameMemberTwo",
+        "value": "Mohammad R. Hasan"
+    },
+    {
+        "key": "member.titleMemberTwo",
+        "value": "FULL STACK WIZARD"
+    },
+    {
+        "key": "member.subtitleMemberTwo",
+        "value": "Full Stack Developer"
+    },
+    {
+        "key": "member.descriptionMemberTwo",
+        "value": "As a developer I have done remote works for agencies, startups and collaborated with talented people to create digital products all over the world. I joined LifeBonder because they have very innovative idea. I want to help building the NextGen in social media platform.'"
+    },
+    {
+        "key": "header.logo",
+        "value": "./assets/logo-lifeBonder.png"
+    },
+    {
+        "key": "footer.copyright",
+        "value": "COPYRIGHT © 2020 |  "
+    },
+    {
+        "key": "footer.link",
+        "value": "https://lifebonder.com"
+    },
+    {
+        "key": "footer.lifebonder",
+        "value": "Lifebonder"
+    },
+    {
+        "key": "footer.allRight",
+        "value": "| ALL RIGHTS RESERVED"
+    },
+    {
+        "key": "textIntroduction.title",
+        "value": " Team Rockstar Warriors"
+    },
+    {
+        "key": "textIntroduction.content",
+        "value": "We are a team of volunteering enthusiasts from all over the world that share the same vision: a social media platform that lives up to the promise of what social media can be: A tool to facilitate human connections rather than replacing them. We want to make the world a better place by filling a growing need - connecting people in friendships that are human, profound and meaningful. LifeBonder is a belief that genuine friendship is something we can all achieve. Something we all deserve!"
+    }
+]

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LibelleService } from 'src/app/services/libelle.service';
+import { LibellePipe } from '../../../Pipes/libelle.pipe';
 
 @Component({
   selector: 'app-header',
@@ -10,11 +10,11 @@ export class HeaderComponent implements OnInit {
 
   headerLogo: string;
 
-  constructor(private readonly libelleService: LibelleService) { }
+  constructor(private readonly libellePipe: LibellePipe) { }
 
   ngOnInit(): void {
-    this.libelleService.getLibelleList('header');
-    this.headerLogo = this.libelleService.getLibelleValue('header.logo');
+
+    this.headerLogo = this.libellePipe.transform('header.logo');
   }
 
 }

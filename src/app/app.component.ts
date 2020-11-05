@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { LibelleService } from './services/libelle.service';
+import { Store } from './store';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +10,18 @@ import { LibelleService } from './services/libelle.service';
 export class AppComponent {
   title = 'lifeBonder-FrontEnd-Test';
 
-  constructor(private readonly libelleService: LibelleService){}
+  constructor(private readonly libelleService: LibelleService, private readonly store: Store){
+  }
 
   ngOnInit(){
-    this.libelleService.getLibelleList('textIntroduction');
+    this.libelleService.getLibelleListFromCms().subscribe(() => {
+      this.libelleService.getLibelleList('textIntroduction');
+      this.libelleService.getLibelleList('choiceMenu');
+      this.libelleService.getLibelleList('header');
+      this.libelleService.getLibelleList('footer');
+      this.libelleService.getLibelleList('socialNetworks');
+      this.libelleService.getLibelleList('member');
+    });
+
   }
 }

@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { ChoiceMenu } from '../../../models/choiceMenu.model';
 import { ObjectsService } from '../../../services/objects.service';
-import { LibelleService } from '../../../services/libelle.service';
 
 @Component({
   selector: 'app-menu',
@@ -13,11 +12,11 @@ export class MenuComponent implements OnInit {
 
   menuList: ChoiceMenu[];
 
-  constructor(private readonly objectsSerivce: ObjectsService, private readonly libelleService: LibelleService) { }
+  constructor(private readonly objectsSerivce: ObjectsService) { }
 
   ngOnInit(): void {
 
-    this.libelleService.getLibelleList('choiceMenu');
+
     this.menuList = this.objectsSerivce.getMenuList();
   }
 

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -23,6 +24,8 @@ import { ObjectsService } from './services/objects.service';
 //imoprt pipes
 import { LibellePipe } from './Pipes/libelle.pipe';
 
+import { Store } from './store';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,9 +41,10 @@ import { LibellePipe } from './Pipes/libelle.pipe';
     LibellePipe,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [ObjectsService, LibelleService, LibellePipe],
+  providers: [ObjectsService, LibelleService, LibellePipe, Store],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
